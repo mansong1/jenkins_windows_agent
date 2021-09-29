@@ -9,8 +9,8 @@ group :test do
 end
 
 group :development do
-  gem "beaker"
-  gem "beaker-rspec"
+  gem "beaker", ">= 2.40.0"
+  gem "beaker-rspec", ">= 5.3.0"
   gem "vagrant-wrapper"
   gem "puppet-blacksmith"
   gem "guard-rake"
